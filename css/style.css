@@ -1,0 +1,42 @@
+header {
+  text-align: center;
+  width: 50%;
+  height: 5em;
+  margin-left: 25%;
+  margin-right: 25%;
+  background: #512DA8;
+}
+
+body {
+  background: #D1C4E9;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+  color: #FFF;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.container {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-bottom: 5em;
+  background: #607D8B;
+}
+
+.add-item {
+  text-align: center;
+  padding-top: 2em;
+}
+
+ul {
+  text-align: center;
+  list-style: none;
+}
+
+li {
+  padding-top: 2em;
+}
