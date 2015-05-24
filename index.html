@@ -5,6 +5,8 @@
   <link
   href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700'
   rel='stylesheet' type='text/css'>
+  <link rel="stylesheet"
+  href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <script src="//code.jquery.com/jquery-latest.min.js"></script>
@@ -20,23 +22,33 @@
   <div class="container">
     <div class="add-item">
       <input type="text" value="Item to Add"></input>
-      <button>Add</button>
+      <button class="fa fa-plus"></button>
     </div>
     <ul class="list">
       <li class="not-complete">
-        Item 1 <button type="submit">Delete</button><button type="submit">Check</button>
+        Item 1
+        <button type="submit" class="fa fa-trash-o"></button>
+        <button type="submit" class="fa fa-check-circle-o"></button>
       </li>
       <li class="not-complete">
-        Item 2 <button type="submit">Delete</button><button type="submit">Check</button>
+        Item 2
+        <button type="submit" class="fa fa-trash-o"></button>
+        <button type="submit" class="fa fa-check-circle-o"></button>
       </li>
       <li class="not-complete">
-        Item 3 <button type="submit">Delete</button><button type="submit">Check</button>
+        Item 3
+        <button type="submit" class="fa fa-trash-o"></button>
+        <button type="submit" class="fa fa-check-circle-o"></button>
       </li>
       <li class="complete">
-        Item 4 <button type="submit">Delete</button><button type="submit">Uncheck</button>
+        Item 4
+        <button type="submit" class="fa fa-trash-o"></button>
+        <button type="submit" class="fa fa-times"></button>
       </li>
       <li class="complete">
-        Item 5 <button type="submit">Delete</button><button type="submit">Uncheck</button>
+        Item 5
+        <button type="submit" class="fa fa-trash-o"></button>
+        <button type="submit" class="fa fa-times"></button>
       </li>
     </ul>
   </div>

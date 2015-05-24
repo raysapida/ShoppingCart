@@ -8,7 +8,7 @@ header {
 }
 
 body {
-  background: #D1C4E9;
+  background: #607D8B;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -23,8 +23,9 @@ h1 {
   width: 50%;
   margin-left: 25%;
   margin-right: 25%;
-  padding-bottom: 5em;
-  background: #607D8B;
+  padding-bottom: 3em;
+  background: #D1C4E9;
+  color: #727272;
 }
 
 .add-item {
@@ -38,5 +39,12 @@ ul {
 }
 
 li {
-  padding-top: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+button {
+  background-color: #212121;
+  border-radius: 10px;
+  border-style: none;
 }
