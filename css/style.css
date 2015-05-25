@@ -1,9 +1,9 @@
 header {
   text-align: center;
-  width: 50%;
+  width: 33%;
   height: 5em;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 33%;
+  margin-right: 33%;
   background: #512DA8;
 }
 
@@ -20,9 +20,9 @@ h1 {
 }
 
 .container {
-  width: 50%;
-  margin-left: 25%;
-  margin-right: 25%;
+  width: 33%;
+  margin-left: 33%;
+  margin-right: 33%;
   padding-bottom: 3em;
   background: #D1C4E9;
   color: #727272;
@@ -41,12 +41,19 @@ ul {
 li {
   padding-top: 1em;
   padding-bottom: 1em;
+  text-align: left;
+}
+
+input {
+  width: 20em;
 }
 
 button {
   background-color: #212121;
   border-radius: 10px;
   border-style: none;
+  margin-right: 1em;
+  float: right;
 }
 
 .complete {
